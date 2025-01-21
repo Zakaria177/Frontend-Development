@@ -1,3 +1,5 @@
+/* 1 rem = 16 px = 100% */
+
 /* universal selectors  
 * {
   background-color: skyblue;
@@ -30,4 +32,71 @@ ul li a {
 /* attribute selectors */
 input[type="email"] {
   background-color: greenyellow;
+}
+
+a {
+  text-decoration: none; /*remove the underline from a link  */
+}
+
+/* psedu class selector */
+a:hover {
+  color: green;
+}
+
+a:active {
+  color: red;
+}
+
+input:focus {
+  background-color: aquamarine;
+}
+
+ul li:first-child {
+  color: greenyellow;
+}
+
+ul li:last-child {
+  color: slateblue;
+}
+
+ul li:nth-child(3) {
+  color: deeppink;
+}
+
+/* psedue element selctors */
+p::first-letter {
+  /* color: red; */
+}
+
+P::before {
+  /* content: ">"; */
+}
+
+/* child selectors */
+/* 
+#div1 > p {
+  color: green;
+}
+ */
+
+/* adjacent slector */
+/* 
+#div1 + p {
+  color: green;
+} 
+  */
+
+/* general selector  */
+
+#div1 ~ p {
+  color: green;
+}
+
+p {
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Roboto", serif;
+  color: #428af5;
+  color: rgba(0, 255, 50, 0.5);
 }
