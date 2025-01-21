@@ -1,0 +1,33 @@
+/* universal selectors  
+* {
+  background-color: skyblue;
+} */
+
+h1 {
+  color: red;
+  background-color: aquamarine;
+}
+
+/* nested Selectors */
+ul li a {
+  color: red;
+}
+
+/* id selectors */
+#sec1 {
+  background-color: green;
+}
+
+#sec2 {
+  background-color: aqua;
+}
+
+/* button selector */
+.btn {
+  background-color: chartreuse;
+}
+
+/* attribute selectors */
+input[type="email"] {
+  background-color: greenyellow;
+}
