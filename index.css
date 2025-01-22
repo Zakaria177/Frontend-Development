@@ -1,5 +1,9 @@
 /* 1 rem = 16 px = 100% */
 
+/* for ui color picker use 
+flat ui 
+https://flatuicolors.com */
+
 /* universal selectors  
 * {
   background-color: skyblue;
@@ -98,5 +102,5 @@ p {
   font-style: italic;
   font-family: "Roboto", serif;
   color: #428af5;
-  color: rgba(0, 255, 50, 0.5);
+  /* color: rgba(0, 25, 232, 0.5); */
 }
