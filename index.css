@@ -6,10 +6,11 @@ https://flatuicolors.com */
 /* and color hunt  
 colorhunt.com*/
 
-/* universal selectors  
+/* universal selectors   */
 * {
-  background-color: skyblue;
-} */
+  /* background-color: skyblue; */
+  box-sizing: border-box;
+}
 
 /* h1 {
   color: red;
@@ -110,7 +111,7 @@ p {
 }
 h1{
   /* text-align: center; */
-  text-decoration: underline;
+  /* text-decoration: underline; */
   text-indent: 5rem ;
   /* text-shadow: 0.1rem 0.2rem greenyellow; */
   
@@ -119,11 +120,43 @@ h1{
 /* box model section  */
 
 h1{
-  width: 400px;
-background-color: #428af5;
-padding: 10px;
+  box-sizing: border-box;
+  width: 370px;
+  background-color: #428af5;
+  padding: 10px;
+  border: 10px solid green;
+  margin: 10px 
 
 }
 h2{
-background-color: greenyellow;
+  background-color: greenyellow;
+  max-width: 100%;
+
+}
+
+.icon {
+  font-size: 30px;
+  color: red;
+}
+
+span{
+  color: #428af5;
+  font-size: 40px;
+}
+
+a{
+  background-color: aqua;
+  padding: 10px;
+  border: 2px solid red;
+  display: inline-block;
+}
+
+.para1{
+  max-width: 1000px ;
+  background-color: chocolate;
+}
+
+.para2{
+  width: 1000px ;
+  background-color: blueviolet;
 }
