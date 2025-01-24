@@ -11,10 +11,10 @@ colorhunt.com*/
   background-color: skyblue;
 } */
 
-h1 {
+/* h1 {
   color: red;
   background-color: aquamarine;
-}
+} */
 
 /* nested Selectors */
 ul li a {
@@ -98,6 +98,7 @@ P::before {
   color: green;
 }
 
+/* typography section */
 p {
   font-size: 1.3rem;
   font-weight: bold;
@@ -105,4 +106,24 @@ p {
   font-family: "Roboto", serif;
   color: #428af5;
   /* color: rgba(0, 25, 232, 0.5); */
+  line-height: 5rem;
+}
+h1{
+  /* text-align: center; */
+  text-decoration: underline;
+  text-indent: 5rem ;
+  /* text-shadow: 0.1rem 0.2rem greenyellow; */
+  
+}
+
+/* box model section  */
+
+h1{
+  width: 400px;
+background-color: #428af5;
+padding: 10px;
+
+}
+h2{
+background-color: greenyellow;
 }
