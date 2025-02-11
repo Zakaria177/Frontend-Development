@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+/* variable section  */
+:root {
+  --text-color: #fff;
+  --padding: 1rem;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  height: 50vh;
+  background-image: url(./images/hassaan-here-shOu5mubuiY-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: static;
+  background-size: cover;
+  filter: grayscale(0.8);
+}
+
+header:hover {
+  filter: brightness(1);
+}
+
+main {
+  padding: var(--padding);
+  background-color: #213252;
+  color: var(--text-color); /*using the varibale in css */
+}
+
+footer {
+  padding: var(--padding);
+  background-color: #213566;
+  color: var(--text-color); /*using the varibale in css */
+}
+
+.skils {
+}
+.row {
+}
+
+/* this is use for clearing any float element  */
+.row::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.card {
+  width: 28%;
+  background-color: #655464;
+  padding: var(--padding);
+  margin: 1rem;
+  float: left;
+}
+.card:hover {
+  box-shadow: 0.2rem 0.4rem 1rem rgba(155, 226, 78, 0.2); /*box-shadow:  x axis y axis blur-ration  */
+}
+
+/* positioning section 
+position : static/relative/fixed/absoulate /sticky  */
+
+.parent {
+  background-color: aquamarine;
+  height: 40vh;
+  position: relative;
+}
+.child {
+  background-color: orange;
+  color: black;
+  width: 10%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* .parent::after {
+  clear: both;
+  content: "";
+  display: table;
+} */
+
+/* flex section start from here  */
+.flex-demo {
+  height: 50vh;
+  background-color: rgb(22, 35, 47);
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-child {
+  background-color: rgb(115, 90, 45);
+  height: 20vh;
+  width: 25%;
+  display: flex;
+  /*justify-content: center; place the content at the center  */
+  justify-content: center;
+  align-items: center;
+}
+
+.team_sections {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.team_members {
+  display: grid;
+  /* grid-template-columns: 25% 25% 25% 25%; */
+  grid-template-columns: auto auto auto auto; /*  this will automatically divide the content in 4 part of the hole width  */
+  grid-template-columns: (
+    4,
+    auto
+  ); /*  this will automatically divide the content in 4 part of the hole width  */
+  padding: 2rem;
+  gap: 1rem;
+}
+.team_member {
+  background-color: orange;
+  padding: 2rem;
+  font-size: large;
+}

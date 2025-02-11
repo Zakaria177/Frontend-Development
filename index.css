@@ -109,29 +109,26 @@ p {
   /* color: rgba(0, 25, 232, 0.5); */
   line-height: 5rem;
 }
-h1{
+h1 {
   /* text-align: center; */
   /* text-decoration: underline; */
-  text-indent: 5rem ;
+  text-indent: 5rem;
   /* text-shadow: 0.1rem 0.2rem greenyellow; */
-  
 }
 
 /* box model section  */
 
-h1{
+h1 {
   box-sizing: border-box;
-  width: 370px;
+  width: 100%;
   background-color: #428af5;
   padding: 10px;
   border: 10px solid green;
-  margin: 10px 
-
+  margin: 10px;
 }
-h2{
+h2 {
   background-color: greenyellow;
   max-width: 100%;
-
 }
 
 .icon {
@@ -139,24 +136,24 @@ h2{
   color: red;
 }
 
-span{
+span {
   color: #428af5;
   font-size: 40px;
 }
 
-a{
+a {
   background-color: aqua;
   padding: 10px;
   border: 2px solid red;
   display: inline-block;
 }
 
-.para1{
-  max-width: 1000px ;
+.para1 {
+  max-width: 1000px;
   background-color: chocolate;
 }
 
-.para2{
-  width: 1000px ;
+.para2 {
+  width: 1000px;
   background-color: blueviolet;
 }
